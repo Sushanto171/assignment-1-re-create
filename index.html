@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .search{
+            text-align: right;
+        }
+     h3 {
+            color: aquamarine;
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+        }
+    .banner{
+        
+            background-image: url("image/Hero-bg.png");
+            padding: 64px 48px 64px 48px;
+            background-position: center;
+            border-radius: 16px;
+            height: 100px;
+            margin: auto;
+        }
+
+    .parent{
+            display: flex;
+
+        }
+    .part {
+            border: 0 solid ;
+            background-color: rgb(252, 230, 230);
+            width: 300px;
+            height: 300px;
+        }
+    .row{
+            border: 0 ;
+            background-color: hsl(60, 16%, 91%);
+ 
+            margin: 10px;
+        }
+    .b{
+            text-align: right;
+        }
+    .b2{
+            background-image: url("image/handshake.jpg");
+            padding: 64px 48px 64px 48px;
+            background-position: center;
+            border-radius: 16px;
+            width: 80%;
+            margin: auto;
+       
+            }
+     .submit {
+                text-align: center;
+            }
+    .radius{
+                border-radius: 5px;
+                padding: 10px 20px;
+            }
+    .parent{
+        justify-content: space-between;
+    }
+    .psitin{
+        position:fixed;
+        top: 30%;
+        right:1%;
+        border-radius: 100%;
+        width: 40px;
+    }
+    .me{
+        border-radius: 10px;
+        padding: 10px;
+        background-color: black;
+        color: rgb(252, 251, 247);
+        font-size:10px;
+    }
+    #a{
+        color: chocolate;
+    }
+    h2{
+        font-size: 50px;
+        font-family: monospace;
+    }
+    menu, ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul li{
+        list-style: none;
+
+    }
+    menu{
+        background-color: darkgrey;
+        border: 2 solid black;
+    }
+    small{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    
+    }
+    #link{
+        background-color: rgb(225, 208, 208);
+    }
+    #alin{
+        width: 75%;
+        margin: auto;
+    }
+    </style>
+</head>
+<body>
+        <menu>
+            <h2>Su-sh<span id="a">a</span>nt</h2>
+            <ul >
+                <li><input type="search" name="" class=" search radius"></li>
+                <li><button class="radius"> Search</button></li>
+            </ul>
+        </menu>
+        <hr>
+        <div class="banner">
+    <div>
+        <h3>This is Heading <br><a href="#link"> <button class="me" >Contact me</button></h3>
+       
+    </div>
+        </div>
+
+    <section>
+       <a href="https://www.google.com" target="_blank"> <img src="/image/massanger-icon.png" alt="" class="psitin"></a>
+  <br>
+  <br>
+     <div id="alin">
+        <div class="parent">      
+            <div class="part"><img src="/image/Group 3.png" alt=""></div>
+            <div class="part"><img src="/image/Group 4.png" alt=""></div>
+            <div class="part"><img src="/image/Group.png" alt=""></div>
+    </div>
+    </div>
+    <br><br>
+        <div class="collum">
+        <div class="row a"><img src="/image/Group 3.png" alt=""></div>
+        <div class="row b"><img src="/image/Group 4.png" alt=""></div>
+        <div class="row c"><img src="/image/Group.png" alt=""></div>
+    </div>
+    <br><br><br>
+        <div class="b2">
+            <div class="submit">
+                <input type="text" placeholder="Your name" class="radius">
+                <button class="radius">submit</button>
+            </div>
+     </div>
+     <br>
+     <br>
+     <div class="parent " id="link">
+        <div><p>Commited by Sushanto Chandra Sharkar</p></div>
+        <div class="contact">
+            <a href="https://www.google.com" target="_blank" class="contact"><img src="/image/linkedin-icon 1.png" alt=""></a>
+            <a href="https://www.google.com" target="_blank" class="contact"><img src="/image/facebook.png" alt=""></a>
+            <a href="https://www.google.com" target="_blank" class="contact"><img src="/image/github.png" alt=""></a>
+        </div>
+    </div>
+</section><hr>
+<footer>
+    <small style="padding: 10px; ">&copy 2024 . All rights Reserved</small>
+</footer>
+</body>
+</html>
